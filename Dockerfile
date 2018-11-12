@@ -15,3 +15,4 @@ FROM base as final
 WORKDIR /usr/src/app
 COPY --from=build /usr/src/app .
 CMD [ "npm", "start" ]
+#test
